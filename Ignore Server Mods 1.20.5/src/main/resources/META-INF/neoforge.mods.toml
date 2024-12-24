@@ -74,6 +74,7 @@ versionRange="${neo_version_range}" #mandatory
 ordering="NONE"
 # Side this dependency is applied on - BOTH, CLIENT, or SERVER
 side="BOTH"
+mandatory=true
 # Here's another dependency
 [[dependencies."${mod_id}"]]
 modId="minecraft"
