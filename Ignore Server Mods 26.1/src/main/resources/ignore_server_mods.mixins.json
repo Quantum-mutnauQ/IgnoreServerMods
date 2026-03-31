@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "quantum.ignoreservermods.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "IgnoreServerMods.refmap.json",
+  "mixins": [
+    "NetworkInstanceMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
